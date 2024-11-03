@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
-@CrossOrigin(origins = "https://satisfied-magic-production.up.railway.app")
+@CrossOrigin
 @RequestMapping("/api/products")
 @Tag(name = "Product Controller", description = "API for managing product records with versioning and soft delete")
 public class ProductController {
