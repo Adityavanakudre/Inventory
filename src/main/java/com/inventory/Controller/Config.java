@@ -12,7 +12,7 @@ public class Config {
     @Bean
     public OpenAPI customOpenAPI() {
         Server productionServer = new Server();
-        productionServer.setUrl("https://satisfied-magic-production.up.railway.app");
+        productionServer.setUrl("https://inventory-fulfillment.up.railway.app");
         productionServer.setDescription("Production Server");
 
         return new OpenAPI().addServersItem(productionServer);
